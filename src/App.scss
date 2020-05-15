@@ -1,0 +1,70 @@
+.App{
+  background-image: url(./images/HomeScreenBackGround.png);
+  background-size: 1500vh;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  min-height: 100vh; 
+  z-index: -1;
+  overflow: auto; 
+}
+
+.HomePageContent{  
+   
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 50vh;
+  height:45vh;
+  margin-left: 130vh;
+  margin-top: 50vh;     
+  .FontHomePageContent{
+    font-family: cursive;
+    font-size: 30px;
+  }   
+} 
+
+.NewBookingFrame{
+  background-image: url(./images/NewBookingBackground.png);
+  background-size: contain;
+  border: 1;
+  position: relative;
+  width: 110vh;
+  height:110vh;
+  background-repeat: no-repeat;
+  margin-left: 50vh;
+  margin-top: 12vh;
+  overflow: auto; 
+}
+.ExistingBookingFrame{  
+  background-image: url(./images/ExistingBookingBackground.png);  
+  background-size: contain;
+  border: 1;
+  position: relative;
+  width: 110vh;
+  height:110vh;
+  background-repeat: no-repeat;
+  margin-left: 50vh;
+  margin-top: 12vh;
+  overflow: auto;   
+}
+.ExistingBookingContent{
+  position: absolute;
+  font-size: 15px;
+  margin-left: 22vh;
+  margin-top: 10vh;
+  transform: rotate(345deg); 
+  color:red
+}
+.NewBookingContent{
+  position: absolute;
+  font-size: 18px;
+  margin-left: 38vh;
+  margin-top: 15vh;
+  transform: rotate(345deg); 
+  color:red
+}
+
+
+
