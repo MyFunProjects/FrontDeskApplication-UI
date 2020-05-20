@@ -42,9 +42,9 @@ export const HomePageContent = React.memo(props => {
   return (    
     <div className="HomePageContent">
       <table border="0">
-        <tr><a onClick={props.showNewBooking}><div className="FontHomePageContent">New Booking</div></a><td></td></tr>
+        <tr><a onClick={props.showNewBooking}><div className="FontHomePageContent">1) New Booking</div></a><td></td></tr>
         <tr><td><br/></td></tr>
-        <tr><td><a onClick={props.showExistingBooking}><div className="FontHomePageContent">Existing Booking</div></a></td></tr>
+        <tr><td><a onClick={props.showExistingBooking}><div className="FontHomePageContent">2) Existing Booking</div></a></td></tr>
         </table>   
     </div>
     );
