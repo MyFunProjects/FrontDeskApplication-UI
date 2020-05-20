@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec7603070907abfc2682c05d057f1f9c",
+    "revision": "66bed158d0ded631a1550f9a74f7148c",
     "url": "/index.html"
   },
   {
-    "revision": "9325d1331e6e1015255b",
-    "url": "/static/css/main.fe608938.chunk.css"
+    "revision": "9b80a57959fd1be8e207",
+    "url": "/static/css/main.642b45b9.chunk.css"
   },
   {
-    "revision": "c79e13410d9c0329a3f6",
-    "url": "/static/js/2.696af9b1.chunk.js"
+    "revision": "fd670c92c7eaf4eb2faa",
+    "url": "/static/js/2.03d9d3e2.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.696af9b1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.03d9d3e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9325d1331e6e1015255b",
-    "url": "/static/js/main.f63c1e73.chunk.js"
+    "revision": "9b80a57959fd1be8e207",
+    "url": "/static/js/main.6d19995b.chunk.js"
   },
   {
-    "revision": "fa25400ef2b6415efccc",
-    "url": "/static/js/runtime-main.1c5a20f7.js"
+    "revision": "0a05732ffe6aa6653170",
+    "url": "/static/js/runtime-main.33adabf5.js"
   },
   {
     "revision": "3ffd1fafffdccd99ea2208234bddb068",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e2f0243374a548f0939717106d2a57fd",
     "url": "/static/media/NewBookingBackground.e2f02433.png"
+  },
+  {
+    "revision": "ef9bf5f163d0537fd6da0c21caedbcca",
+    "url": "/static/media/availableSlots.ef9bf5f1.png"
   },
   {
     "revision": "a773ab92d3dc33950aecc8f435b9aeae",

@@ -1,70 +1,84 @@
-.App{
+.App {
   background-image: url(./images/HomeScreenBackGround.png);
   background-size: 1500vh;
   background-repeat: no-repeat;
-  background-size: cover; 
-  min-height: 100vh; 
+  background-size: cover;
+  min-height: 100vh;
   z-index: -1;
-  overflow: auto; 
+  overflow: auto;
 }
 
-.HomePageContent{  
-   
+.HomePageContent {
   z-index: 10;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
   width: 50vh;
-  height:45vh;
+  height: 45vh;
   margin-left: 130vh;
-  margin-top: 50vh;     
-  .FontHomePageContent{
+  margin-top: 50vh;
+  .FontHomePageContent {
     font-family: cursive;
     font-size: 30px;
-  }   
-} 
+  }
+}
 
-.NewBookingFrame{
+.NewBookingFrame {
   background-image: url(./images/NewBookingBackground.png);
   background-size: contain;
   border: 1;
   position: relative;
   width: 110vh;
-  height:110vh;
+  height: 110vh;
   background-repeat: no-repeat;
   margin-left: 50vh;
   margin-top: 12vh;
-  overflow: auto; 
+  overflow: auto;
 }
-.ExistingBookingFrame{  
-  background-image: url(./images/ExistingBookingBackground.png);  
+.AvailableSlotFrame {
+  background-image: url(./images/availableSlots.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 75vh;
+  height: 75vh;
+  margin-left: 15vh;
+  margin-top: 20vh;
+}
+.ExistingBookingFrame {
+  background-image: url(./images/ExistingBookingBackground.png);
   background-size: contain;
   border: 1;
   position: relative;
   width: 110vh;
-  height:110vh;
+  height: 110vh;
   background-repeat: no-repeat;
   margin-left: 50vh;
   margin-top: 12vh;
-  overflow: auto;   
+  overflow: auto;
 }
-.ExistingBookingContent{
+.ExistingBookingContent {
   position: absolute;
   font-size: 15px;
   margin-left: 22vh;
   margin-top: 10vh;
-  transform: rotate(345deg); 
-  color:red
+  transform: rotate(345deg);
+  color: red;
 }
-.NewBookingContent{
+.NewBookingContent {
   position: absolute;
   font-size: 18px;
-  margin-left: 38vh;
-  margin-top: 15vh;
-  transform: rotate(345deg); 
-  color:red
+  margin-left: 40vh;
+  margin-top: 8vh;
+  transform: rotate(10deg);
+  color: red;
 }
+.AvailableSlotContent {
+  position: absolute;
+  font-size: 18px;
+  margin-left: 25vh;
+  margin-top: 8vh;
 
-
-
+  color: red;
+}
