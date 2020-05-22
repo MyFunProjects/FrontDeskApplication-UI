@@ -1,8 +1,6 @@
 import React from "react";
 
 export const DisplayAvailableSlots = React.memo((props) => {
-  const [selectedSlot, setSelectedSlot] = React.useState([]);
-
   return (
     <div className="AvailableSlotFrame">
       <div className="AvailableSlotContent">
@@ -19,7 +17,18 @@ export const DisplayAvailableSlots = React.memo((props) => {
                     id={index}
                     type="radio"
                     name="selectedSpec"
-                    onClick={() => setSelectedSlot(specialistEntry)}
+                    onClick={() =>
+                      props.bookingInfoFunction({
+                        ...props.bookingInfoData,
+                        doctorDetails: {
+                          ...props.bookingInfoData.doctorDetails,
+                          id: specialistEntry.id,
+                          firstName: specialistEntry.firstName,
+                        },
+                        bookedSlot: specialistEntry.avail_time,
+                        status: "UPCOMMING",
+                      })
+                    }
                   />
                   {specialistEntry && specialistEntry.firstName}
                 </div>
@@ -30,7 +39,7 @@ export const DisplayAvailableSlots = React.memo((props) => {
             </tr>
           ))}
         </table>
-        <div>Selected entry is : {selectedSlot.firstName}</div>
+
         <img
           onClick={props.handleClose}
           align="right"
