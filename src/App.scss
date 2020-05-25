@@ -82,3 +82,20 @@
 
   color: red;
 }
+.ConfirmButton {
+  padding-right: 0px;
+}
+.CancelButton {
+  padding-left: 0px;
+}
+.alertBox {
+  background-color: whitesmoke;
+  background-size: contain;
+  border: 1;
+  position: relative;
+  width: 50vh;
+  height: 50vh;
+  margin-left: 50vh;
+  margin-top: 12vh;
+  overflow: auto;
+}

@@ -26,7 +26,7 @@ export const DisplayAvailableSlots = React.memo((props) => {
                           firstName: specialistEntry.firstName,
                         },
                         bookedSlot: specialistEntry.avail_time,
-                        status: "UPCOMMING",
+                        status: "UPCOMING",
                       })
                     }
                   />
